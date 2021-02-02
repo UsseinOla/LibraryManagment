@@ -1,5 +1,4 @@
 #include<fstream>
-//#include<conio.h>
 #include<string.h>
 #include<iomanip>
 #include<iostream>
@@ -390,7 +389,7 @@ void book_return()
     char sn[20],bn[20];
     int found=0, flag=0, day, fine;
    cout<<"\t\tRETURN BOOKS\n";
-    cout<<"\n\n\tEnter The student’s ID Number: ";
+    cout<<"\n\n\tEnter The studentÂ’s ID Number: ";
     cin>>sn;
     fp.open("student.dat",ios::in|ios::out);
     fp1.open("book.dat",ios::in|ios::out);
